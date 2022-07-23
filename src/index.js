@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const route = require('./routes/route')
 
-app.use(express.json()); // it parses in comming req wit  JSON payload it based on body parser
+app.use(express.json()); // it parses incomming req with  JSON payload it based on body parser
 
 mongoose.connect('mongodb+srv://RinkiPradhan:moShtmwBC2cEopn2@cluster0.xs93j.mongodb.net/Group61Database')
     .then(() => console.log('MongoDB is Connected'))

@@ -1,7 +1,7 @@
 const urlModel = require('../model/urlModel')
 const shortid = require('shortid');
 //const validator= require("validator")
-//Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker
+//Redis is an open source , in-memory data structure store, used as a database, cache, and message broker
 
 const redis = require("redis");
 // util is basically node.js module with provides promisify function
